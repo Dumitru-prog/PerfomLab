@@ -8,4 +8,4 @@ def seq(n,m):
         if v == 1: return
         yield v
 
-print(list(seq(n,m)))
+print(*list(seq(n,m)))
